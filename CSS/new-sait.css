@@ -1,0 +1,15 @@
+body {
+    font-family: 'Caveat', cursive; 
+    background: #1F2428;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 120px;
+    margin-top: 300px;
+}
