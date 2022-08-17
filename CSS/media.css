@@ -21,6 +21,10 @@
     main {
         display: block;
     }
+    
+    footer {
+        height: 75px;
+    }
 
     .copyright {
         margin-left: auto;
