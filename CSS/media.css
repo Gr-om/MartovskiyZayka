@@ -1,7 +1,3 @@
-.panel [type="checkbox"] {
-    display: none;
-}
-
 @media all and (max-width: 800px) {
 
     /* Header */
@@ -18,7 +14,7 @@
 
     main {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     iframe {
@@ -32,46 +28,32 @@
 
     .panel  {
         border: none;
-        background: #30373E;
-    }
-
-    .panel .toggleMenu {
-        margin-top: 26px;
-        color: #438AB1;
-        font-size: 24px;
+        border-top: 2px solid #438AB1;
     }
 
     .target {
-        display: none;
-    }
-
-    .buttons {
-        display: none;
+        margin-bottom: 0;
     }
 
     .buttons a {
-        margin-bottom: 10px;
         width: 180px;
-        font-size: 30px;
-    }
-
-    input.toggleMenu:checked ~ .buttons {
-        display: flex;
+        font-size: 35px;
+        margin-bottom: 30px;
     }
 
     .social {
-        display: none;
+        height: 80px;
+    }
+
+    .social img {
+        margin-top: 5px;
+        width: 60px;
+        height: 60px;
     }
     
     /* Footer */
 
     footer {
-        height: 50px;
+        display: none;
     }
-
-    .copyright {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
 }
