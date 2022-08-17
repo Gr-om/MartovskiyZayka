@@ -103,6 +103,10 @@ main {
     align-self: center;
 }
 
+.social a:hover {
+    margin-bottom: 15px;
+}
+
 /* Footer */
 
 footer {
