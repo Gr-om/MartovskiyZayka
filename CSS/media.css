@@ -1,0 +1,10 @@
+@media all and (max-width: 800px) {
+    .panel {
+        display: none;
+    }
+
+    iframe {
+        width: 400px;
+        height: 250px;
+    }
+}
